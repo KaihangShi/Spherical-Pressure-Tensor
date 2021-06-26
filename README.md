@@ -5,8 +5,8 @@ FORTRAN code for calculating local pressure tensor in spherical coordinates. Exa
 
 
 ## Requirement
-gfortran compiler <br/>
-[libgmxfort](https://github.com/KaihangShi/libgmxfort) for reading GROMACS compressed trajectory files (.xtc)<br/>
+1). gfortran compiler <br/>
+2) [libgmxfort](https://github.com/KaihangShi/libgmxfort) for reading GROMACS compressed trajectory files (.xtc)<br/>
 
 
 ## Compilation
