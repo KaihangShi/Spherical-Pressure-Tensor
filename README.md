@@ -12,10 +12,10 @@ FORTRAN code for calculating local pressure tensor in spherical coordinates. Exa
 ## Compilation
 Once installed libgmxfort, FORTRAN code for pressure tensor calculation can be compiled using
 ```bash
-gfortran $file -I/home/username/local/include `pkg-config --libs libgmxfort`
+gfortran $file -I/usr/local/include `pkg-config --libs libgmxfort`
 
 ```
-
+where ```/usr/local/include``` is path to the installed module file. Replace ```$file``` with the corresponding file name for FORTRAN code.
 
 ## Reference
-[1]  P. Montero de Hijes, **K. Shi**, E. G. Noya, E. E. Santiso, K. E. Gubbins, E. Sanz and C. Vega, \"The Young–Laplace equation for a solid–liquid interface\". *Journal of Chemical Physics*, 153 (2020) 191102. [[link]](https://aip.scitation.org/doi/10.1063/5.0032602)[[PDF]](http://kaihangshi.github.io/assets/docs/paper/Hijes_jcp_2020.pdf)"%}
+[1]  P. Montero de Hijes, **K. Shi**, E. G. Noya, E. E. Santiso, K. E. Gubbins, E. Sanz and C. Vega, \"The Young–Laplace equation for a solid–liquid interface\". *Journal of Chemical Physics*, 153 (2020) 191102. [[link]](https://aip.scitation.org/doi/10.1063/5.0032602)[[PDF]](http://kaihangshi.github.io/assets/docs/paper/Hijes_jcp_2020.pdf)
