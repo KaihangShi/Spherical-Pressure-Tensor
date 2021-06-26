@@ -17,7 +17,7 @@ gfortran $file -I/usr/local/include `pkg-config --libs libgmxfort`
 ```
 where ```/usr/local/include``` is path to the installed module file. Replace ```$file``` with the corresponding file name for FORTRAN code.
 
-### Configure parameters
+### Configure calculation parameters
 All input parameters for the pressure tensor calculations are set at the beginning of the source  code. GROMACS trajectory file (.xtc) and coordinate file storing center-of-mass for spherical nucleus (CM_True.dat) are needed. An example of CM_true.dat is provided in the parent directory.
 
 
