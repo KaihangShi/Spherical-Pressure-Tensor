@@ -40,7 +40,7 @@ Double Precision, Parameter :: epsilonkb_o = 106.1d0    ! epsilon/k_B for oxygen
 Double Precision, Parameter :: q_m = -1.1794d0        ! point charge for M-site, TIP4P/ICE [e]
 Double Precision, Parameter :: q_h = 0.5897d0        ! point charge for H, TIP4P/ICE model [e]
 Double Precision, Parameter :: r_ljcut = 9.0d0      ! LJ cutoff radius [Angstrom]
-Double Precision, Parameter :: alp = 0.04d0       ! Alpha Parameter for Wolf potential method [1/Angstrom]
+Double Precision, Parameter :: alp = 0.06d0       ! Alpha Parameter for Wolf potential method [1/Angstrom]
 Double Precision, Parameter :: r_coulcut = 65.0d0     ! cutoff radius for Wolf potential method [Angstrom]
 
 ! Mass 
