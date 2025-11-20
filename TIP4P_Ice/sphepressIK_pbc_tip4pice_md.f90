@@ -29,7 +29,7 @@ Character*256, Parameter :: xtcpath = "/share/gubbins/kshi3/traj.xtc"
 Character*256, Parameter :: compath = "/gpfs_backup/gubbins_data/kshi3/sphe_pressure_tensor/tip4p_ice/CM_all.dat"
 
 ! System parameter 
-Double Precision, Parameter :: temp = 255.0d0      ! system temperature [Kelvin]
+Double Precision, Parameter :: temp = 247.0d0      ! system temperature [Kelvin]
 Integer, Parameter :: n_mol_tot = 78856              ! total number of molecules in the system
 Integer, Parameter :: n_sites_tot = 315424           ! Total number of atoms in the system
 Integer, Parameter :: n_mol_sites = 4               ! number of sites in the water molecule    
